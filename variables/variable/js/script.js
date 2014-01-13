@@ -1,6 +1,7 @@
-// Javascript
+// Expressions - Arithemetic Operators
 
-var yearBorn = 1967
-var age = 2014 - yearBorn - 1;
 
-console.log(age);
+// area of the triangle is half of the width times the height
+
+var remainder = 32 % 10;
+console.log(remainder);
