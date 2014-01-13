@@ -1,5 +1,11 @@
 // Javascript
 
+var a = 2;
+
+a = a + 3;
+
+console.log(a);
+
 var yearBorn = 1955;
 var age; //declaration
 age = 46; //definition
@@ -24,6 +30,8 @@ console.log(muppetNames[2]);
 muppetNames[1] = "rizzo";
 
 console.log(muppetNames[1]);
+
+
 
 /*console.log("Hello World");
 console.log(yearBorn);
