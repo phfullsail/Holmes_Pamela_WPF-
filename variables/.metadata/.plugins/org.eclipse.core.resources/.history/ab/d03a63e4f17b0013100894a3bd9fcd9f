@@ -1,0 +1,14 @@
+// Javascript
+
+var yearBorn = 1955;
+var age; //declaration
+age = 46; //definition
+// storage container = value
+
+var yearOfBirth = 1967;
+
+/*console.log("Hello World");
+console.log(yearBorn);
+*/
+
+alert("Hello World");

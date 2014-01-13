@@ -1,0 +1,28 @@
+// Javascript
+
+var yearBorn = 1955;
+var age; //declaration
+age = 46; //definition
+// storage container = value
+
+var yearOfBirth = 1967;
+
+var isStudent = false;
+
+var kermit = "my friend";
+
+var firstName = "Pamela";
+
+var phrase = 'I don\'t know \n You\'ll have to speak to the professor';
+
+//alert(phrase);
+
+var muppetNames = ["kermit","ms piggy", "gonzo","rizzo",firstName ];
+
+alert(muppetNames);
+
+/*console.log("Hello World");
+console.log(yearBorn);
+*/
+
+alert("Hello World");
