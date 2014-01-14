@@ -1,0 +1,14 @@
+// Pamela Holmes - 01/13/2014 - Expressions_Worksheet
+
+//Dog Years
+var sparkyHumanAge = 5;
+var dogYears = 7;
+
+var sparkyDogAge = sparkyHumanAge * dogYears;
+
+console.log("Sparky is" + " " + sparkyHumanAge + " " + "human years old which is"  + " " + sparkyDogAge + " " + "in dog years.");
+
+
+
+
+

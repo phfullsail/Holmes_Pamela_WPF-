@@ -1,0 +1,13 @@
+// Pamela Holmes - 01/13/2014 - Expressions_Worksheet
+
+//Dog Years
+var age = 5;
+var dogYears = 7;
+
+var dogYearAge = age * dogYears;
+
+console.log(dogYearAge);
+
+
+
+

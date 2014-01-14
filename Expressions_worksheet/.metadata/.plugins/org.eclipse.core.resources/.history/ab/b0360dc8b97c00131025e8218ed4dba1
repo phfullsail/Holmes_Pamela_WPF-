@@ -1,0 +1,11 @@
+// Pamela Holmes - 01/13/2014 - Expressions_Worksheet
+
+//Area of rectangle
+
+var height = 10;
+var width = 2;
+var area = height * width;
+
+console.log(area);
+
+

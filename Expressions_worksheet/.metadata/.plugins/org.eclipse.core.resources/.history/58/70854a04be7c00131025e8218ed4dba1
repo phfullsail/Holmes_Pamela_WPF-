@@ -1,0 +1,30 @@
+// Pamela Holmes - 01/13/2014 - Expressions_Worksheet
+
+//Dog Years
+var sparkyHumanAge = 5;
+var dogYears = 7;
+
+var sparkyDogAge = sparkyHumanAge * dogYears;
+
+console.log("Sparky is" + " " + sparkyHumanAge + " " + "human years old which is"  + " " + sparkyDogAge + " " + "in dog years.");
+
+
+
+// Slice of Pie part 1
+var countSlices = 8;
+var countPeople = 12;
+var countPizzas = 6;
+
+var totalPersonSlices = countSlices * countPizzas / countPeople;
+
+console.log("Each person ate" + " " + totalPersonSlices + " " + "slices of pizza at the party.");
+
+
+
+//Slice of Pie part II
+
+var totalSlices = countSlices * countPizzas;
+var sparkySlices = totalSlices % countPeople;
+
+console.log("Sparky got" + sparkySlices + " " + "slices of pizza.");
+
