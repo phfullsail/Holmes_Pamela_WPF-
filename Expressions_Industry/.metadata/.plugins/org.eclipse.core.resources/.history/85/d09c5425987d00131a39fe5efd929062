@@ -13,4 +13,4 @@ var result = "Your page width " + iWidth + "in" + " " + "X" + " " + iHeight + "i
 
 alert(result);
 
-
+console.log(result); 
