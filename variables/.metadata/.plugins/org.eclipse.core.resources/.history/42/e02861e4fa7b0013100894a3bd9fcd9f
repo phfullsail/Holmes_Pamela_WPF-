@@ -1,0 +1,6 @@
+// Javascript
+
+var yearBorn = 1967
+var age = 2012 - yearBorn;
+
+console.log(age);

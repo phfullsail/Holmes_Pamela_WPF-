@@ -1,0 +1,8 @@
+// Expressions Concatenating Strings
+
+var firstName = "Pamela";
+var lastName = "Holmes";
+var fullName = firstName + " " + lastName;
+
+
+console.log(fullName);
