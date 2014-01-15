@@ -9,7 +9,7 @@ var pixelsPerInch = 150;
 var pWidth = iWidth * pixelsPerInch;
 var pHeight = iHeight * pixelsPerInch;
 
-var result = "Your page width " + iWidth + "in" + " " + "X" + " " + iHeight + "in" + " " + "is equivalent to " + pWidth + "px " + "X" + " " + pHeight + "px.";
+var result = "Your page width " + iWidth + "in" + " " + "X" + " " + iHeight + "in" + " " + "is equivalent to " + pWidth + "px " + "X" + " " + pHeight + "px";
 
 alert(result);
 
