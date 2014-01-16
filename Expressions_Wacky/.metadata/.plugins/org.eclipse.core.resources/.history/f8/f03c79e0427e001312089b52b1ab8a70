@@ -12,7 +12,7 @@ var harvests = Math.round(siloSize/used,2);
 
 
 
-var result = "You have " + harvests + " " + "harvests" + " " + "before your silo reaches capacity.";
+var result = "Your silo size is " + siloSize + "." + " " + "You have " + harvests + " " + "before it reaches capacity.";
 alert(result);
 
 

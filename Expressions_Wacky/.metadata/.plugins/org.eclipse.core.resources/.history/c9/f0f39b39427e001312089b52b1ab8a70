@@ -8,11 +8,11 @@ var siloSize = prompt("How big is your silo? \nOnly enter increments of 50 got a
 
 var fieldYield = 2;
 var used = fieldCount * fieldYield;
-var harvests = Math.round(siloSize/used,2);
+var harvests = siloSize/used;
 
 
 
-var result = "You have " + harvests + " " + "harvests" + " " + "before your silo reaches capacity.";
+var result = "Your silo size is " + siloSize + "." + " " + "You have " + harvests + " " + "before it reaches capacity.";
 alert(result);
 
 
