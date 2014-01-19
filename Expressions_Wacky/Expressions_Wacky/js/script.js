@@ -3,16 +3,12 @@
 //I am addicted to this crazy game on my iPad called "Hay Day".  
 //The following is what comes from too many days on the farm!
 
-var fieldCount = prompt("Let\'s figure out how many harvests you have before your silo reaches capacity.\nHow many fields do you have?");
-var siloSize = prompt("How big is your silo? \nOnly enter increments of 50 got accurate results");
+var times = ["8","12","6"];
+var field1 = prompt("How many cows are in the field at" + " " + times[0] + " " + "am?");
+var field2 = prompt("How many cows are in the field at" + " " + times[1] + " " + "pm?");
+var field3 = prompt("How many cows are in the field at" + " " + times[2] + " " + "pm?");
+var average = (field1 + field2 + field3)/ 2;
 
-var fieldYield = 2;
-var used = fieldCount * fieldYield;
-var harvests = Math.round(siloSize/used,2);
-
-
-
-var result = "You have " + harvests + " " + "harvests" + " " + "before your silo reaches capacity.";
-alert(result);
+console.log("There is an average of " + average + " cows in the field at any time in through the day.");
 
 
