@@ -1,0 +1,17 @@
+// Pamela Holmes - 01/19/2014 - Conditional Worksheet
+
+//Stuff Your  Face I
+
+//if weight if greater than 250lbs entrant qualifies for the heavyweight division
+
+var eWeight = 200;
+var rWeight = 250;
+
+if(eWeight >= rWeight) {
+	console.log("The competitor qualifies for the heavyweight division.");
+}else {
+	console.log("The competitor needs to gain some weight!");
+}
+
+
+
