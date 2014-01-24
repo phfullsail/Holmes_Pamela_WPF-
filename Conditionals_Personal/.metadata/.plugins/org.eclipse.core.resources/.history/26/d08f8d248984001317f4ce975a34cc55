@@ -1,0 +1,17 @@
+// Pamela Holmes - 01/22/2014 - Conditionals Personal
+
+
+/*var age = 11;
+var book;
+
+//if child is under 10, they get Green Eggs and Ham, otherwise they get The Time Machine
+
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);*/
+
+//Closet Shoe Capacity
+
+var cSize = prompt("Let's calculate how many shoes your closet can hold./n Enter your closet size in square feet.");
+
+
+
