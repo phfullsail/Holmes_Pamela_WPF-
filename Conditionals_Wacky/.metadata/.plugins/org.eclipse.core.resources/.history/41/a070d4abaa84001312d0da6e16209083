@@ -1,0 +1,16 @@
+// Pamela Holmes - 01/22/2014 - Conditionals Wacky
+
+
+//Determine if the project will meet it's deadline
+
+
+//lets determine if there is room left in the closet
+deadlineMessage = ( remaining <= 0) ? "Yay, we will make the deadline!" : "We can't make this deadline. We may need to hire more developers!";
+
+// send the appropriate message
+if (estimatedHours != 0 && dDays != 0 && dCount != 0) {
+	console.log(deadlineMessage);
+} else {
+	console.log("Enter valid data in order to accurately scope this project.");
+}
+
