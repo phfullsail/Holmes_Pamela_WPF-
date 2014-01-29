@@ -1,0 +1,23 @@
+// Pamela Holmes - 01/27/2014 - Functions Personal
+
+
+/*var calcCirc = function (r) {
+	var circumference = r/2;
+	return circumference;
+};*/
+
+
+//Miles driven to work each week
+
+var milesWeekly = function(numDays, dayMiles) {
+	var totalMiles = numDays * dayMiles;
+	return //totalMiles;
+	
+	return message = ( totalMiles > 200) ? "Oh my, " + totalMiles + " miles! I hope you drive a Prius!" : "That's not bad," + totalMiles + "miles is average!";
+};
+
+var weekMiles = milesWeekly(5,53);
+
+
+console.log(message);
+

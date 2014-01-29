@@ -1,0 +1,22 @@
+// Pamela Holmes - 01/27/2014 - Functions Personal
+
+
+//Miles driven to work each week
+var totalMiles = 0; // define total miles 
+
+var milesWeekly = function(numDays, dayMiles) {
+	totalMiles = numDays * dayMiles;
+	
+	return message = ( totalMiles > 200) ? "Oh my, " + totalMiles + " miles! I hope you drive a Prius!" : "That's not bad," + totalMiles + "miles is average!";
+};
+
+
+var weekMiles = milesWeekly(5,53);
+
+if (totalMiles === 0) {
+	console.log("Did you work this week?");
+} else {
+	console.log(message);
+}
+
+
