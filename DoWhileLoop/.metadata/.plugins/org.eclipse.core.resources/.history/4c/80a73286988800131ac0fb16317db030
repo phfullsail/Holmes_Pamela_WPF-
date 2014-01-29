@@ -1,0 +1,10 @@
+// Pamela Holmes - 01/27/2014 - Loops
+
+
+var b = 10;
+
+while (b > 0) {
+	console.log(b);
+	b--;
+}
+

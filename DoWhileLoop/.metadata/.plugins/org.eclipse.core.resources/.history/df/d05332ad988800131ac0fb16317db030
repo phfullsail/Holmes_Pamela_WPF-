@@ -1,0 +1,10 @@
+// Pamela Holmes - 01/27/2014 - Loops
+
+
+var b = 50;
+
+while (b > 0) {
+	console.log(b + " kegs on the wall");
+	b--;
+}
+
