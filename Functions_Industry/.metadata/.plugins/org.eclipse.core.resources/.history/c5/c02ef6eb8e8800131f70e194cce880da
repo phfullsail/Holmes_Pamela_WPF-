@@ -1,0 +1,27 @@
+// Pamela Holmes - 01/27/2014 - Functions Industry
+
+
+//Miles driven to work each week
+
+var calcRevenue = function(ads,pages,cost) {
+	var revenue = ads * pages * cost;
+	return revenue;
+	
+};
+
+
+var tRev = calcRevenue(5,20,39);
+
+var rMessage = ( tRev > 100 && tRev < 350) ? "The ad sales are doing well!" : "We have maximized our ad saies for this site!";
+
+if (tRev <= 10) {
+	// message if any parameters == 0
+	console.log("Did you work this week?");
+} else if (tRev > 10 && tRev <= 100) {
+	// too many miles message
+	console.log("That's a start, but $" + tRev + " will not pay the bills!!");
+} else {
+	console.log(rMessage);
+}
+
+

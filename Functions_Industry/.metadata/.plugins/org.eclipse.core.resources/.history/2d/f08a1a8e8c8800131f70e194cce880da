@@ -1,0 +1,29 @@
+// Pamela Holmes - 01/27/2014 - Functions Industry
+
+
+//Miles driven to work each week
+//var totalMiles = 0; // define total miles 
+
+var calcRevenue = function(ads,pages,cost) {
+	var revenue = ads * pages * cost;
+	return revenue;
+	
+};
+
+
+
+var totalRev = calcRevenue(3,10,0);
+
+var revenueMessage = ( totalMiles > 200 && totalMiles < 350) ? "Oh my, " + totalMiles + " miles! I hope you drive a Prius!" : "That's not bad," + totalMiles + " miles is average!";
+
+if (totalRev <= 10) {
+	// message if any parameters == 0
+	console.log("Did you work this week?");
+} else if (totalRev > 10 && totalRev < 100) {
+	// too many miles message
+	console.log("That's a start, but $" + totalRev + " will not pay the bills!!");
+} else {
+	console.log(message);
+}
+
+
