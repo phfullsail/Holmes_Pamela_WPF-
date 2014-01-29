@@ -1,0 +1,33 @@
+// Pamela Holmes - 01/27/2014 - Functions Wacky
+
+
+//Number of cookies needed for the milk
+
+
+var calcMilk = function(cookieCount) {
+	var countMilk = 5.2; // number of cookies per glass of milk
+	// 
+	var totalMilk = Math.round((cookieCount/countMilk),0);
+	return totalMilk;
+	
+};
+
+// get thte total of milk needed
+var totalMilk = calcMilk(5648);
+console.log(totalMilk);
+
+
+
+if (totalMilk <= 0) {
+	// message if any parameters == 0
+	console.log("Are you not having any cookies today?");
+} else if (totalMilk > 0 && totalMilk <= 100) {
+	// message if sales are still low
+	console.log("Cookie Monster will need " + totalMilk + " glasses of milk for his cookies!!");
+} else {
+	var message = ( totalMilk < 200) ? "Cookie Monster really has an appetite today!" : "We have to go to the store for more milk!";
+	
+	console.log(message);
+}
+
+
